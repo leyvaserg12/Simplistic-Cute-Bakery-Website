@@ -45,7 +45,7 @@ Contact Section:
 - Message form: required input (Name, Email, Phone Number, Message)
 - Functional with Javascript (returns a message to indicate form completion)
 
-  ![aboutus_page](https://github.com/user-attachments/assets/c0397075-7305-4643-a7d3-ed159b6877df)
+  ![contact_page](https://github.com/user-attachments/assets/afdbf30c-916c-4c83-8316-ed5c62a531f6)
 
   ![thankyou](https://github.com/user-attachments/assets/53dbd75f-d6ca-41cd-be21-8c724c4a5fda)
 
