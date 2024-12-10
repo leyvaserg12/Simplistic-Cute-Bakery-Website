@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Header Content -->
+      <header>
+       <!-- website logo links back to main page -->
+       <figure class="logo">
+        <a href="index.html"><img src="images/logo.png" alt ="logo"></a>
+      </figure>
+
+        <!-- Nav Bar: (Home, Menu, About US, Contact)-->
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main class="index">
+        <!-- Carousel of Pastery Items w/ Title desc. and carousel of images to show product-->
+        <section class="carousel next">
+          <div class="list">
+            <!-- Item1: Cinnamon Bun -->
+            <article class="item active">
+              <div class="main-content"
+              style="background-color: #e7bd8f;">
+                <div class="content">
+                  <h2>Enjoy Your Morning Goods</h2>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae vero illo adipisci a corporis? Quisquam consequuntur molestias, aut eaque ipsam eveniet odio? Velit, ducimus assumenda doloremque saepe animi architecto.
+                  </p>
+                  <!-- Buy now Button takes us to the menu page-->
+                  <button onclick="location.href='menu.html';" class="BuyNow">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <article class="image">
+                <img src="images/1.png" alt="">
+              </article>
+            </article>
+            <!-- Item2:  Cookies -->
+            <article class="item other_1">
+              <div class="main-content"
+              style="background-color:#dd9a54">
+                <div class="content">
+                  <h2>Enjoy Your Morning Goods</h2>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae vero illo adipisci a corporis? Quisquam consequuntur molestias, aut eaque ipsam eveniet odio? Velit, ducimus assumenda doloremque saepe animi architecto.
+                  </p>
+                  <!-- Buy now Button takes us to the menu page-->
+                  <button onclick="location.href='menu.html';" class="BuyNow">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <article class="image">
+                <img src="images/2.png" alt="">
+              </article>
+            </article>
+             <!-- Item2:  Muffins -->
+            <article class="item other_2">
+              <div class="main-content"
+              style="background-color:#e78d4e">
+                <div class="content">
+                  <h2>Enjoy Your Morning Goods</h2>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae vero illo adipisci a corporis? Quisquam consequuntur molestias, aut eaque ipsam eveniet odio? Velit, ducimus assumenda doloremque saepe animi architecto.
+                  </p>
+                  <!-- Buy now Button takes us to the menu page-->
+                  <button onclick="location.href='menu.html';" class="BuyNow">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <!-- Item2:  Pie -->
+              <article class="image">
+                <img src="images/3.png" alt="">
+              </article>
+            </article>
+            <article class="item">
+              <div class="main-content"
+              style="background-color:#f4b07c">
+                <div class="content">
+                  <h2>Enjoy Your Morning Goods</h2>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae vero illo adipisci a corporis? Quisquam consequuntur molestias, aut eaque ipsam eveniet odio? Velit, ducimus assumenda doloremque saepe animi architecto.
+                  </p>
+                  <!-- Buy now Button takes us to the menu page-->
+                  <button onclick="location.href='menu.html';" class="BuyNow">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <!-- Item2:  Bread Loaf -->
+              <article class="image">
+                <img src="images/4.png" alt="">
+              </article>
+            </article>
+            <article class="item">
+              <div class="main-content"
+              style="background-color:#c77448">
+                <div class="content">
+                  <h2>Enjoy Your Morning Goods</h2>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae vero illo adipisci a corporis? Quisquam consequuntur molestias, aut eaque ipsam eveniet odio? Velit, ducimus assumenda doloremque saepe animi architecto.
+                  </p>
+                  <!-- Buy now Button takes us to the menu page-->
+                  <button onclick="location.href='menu.html';" class="BuyNow">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <article class="image">
+                <img src="images/5.png" alt="">
+              </article>
+            </article>
+            <article class="item">
+              <div class="main-content"
+              style="background-color:#edc39d">
+                <div class="content">
+                  <h2>Enjoy Your Morning Goods</h2>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae vero illo adipisci a corporis? Quisquam consequuntur molestias, aut eaque ipsam eveniet odio? Velit, ducimus assumenda doloremque saepe animi architecto.
+                  </p>
+                  <!-- Buy now Button takes us to the menu page-->
+                  <button onclick="location.href='menu.html';" class="BuyNow">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <article class="image">
+                <img src="images/6.png" alt="">
+              </article>
+            </article>
+          </div>
+          <!-- Button to toggle the carousel-->
+          <div class="arrows">
+            <button id="prev">←</button>
+            <button id="next">→</button>
+          </div>
+        </section>
+      </main>
+
+      <script src="carousel.js"></script>
+  </body>
+</html>

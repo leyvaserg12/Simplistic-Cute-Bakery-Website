@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Header Content -->
+      <header>
+        <!-- website logo links back to main page -->
+        <figure class="logo">
+          <a href="index.html"><img src="images/logo.png" alt ="logo"></a>
+        </figure>
+
+        <!-- Nav Bar: (Home, Menu, About US, Contact)-->
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Contact Form -->
+      <main>
+        <!-- Title -->
+        <h1 class="title">Get in Touch with Us</h1>
+        <div class="contact-container">
+            <section class="contact-info">
+              <!-- Basic Contact Information (Address, Phone Number, Email) -->
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong> 123 Main Street, Saskatoon, CA, A1B 2C3</p>
+                <p><strong>Phone:</strong> <a href="tel:+11234567890">(123) 456-7890</a></p>
+                <p><strong>Email:</strong> <a href="mailto:contact@company.com">contact@company.com</a></p>
+            </section>
+            
+            <!-- Input: Name, Email, Number, Message -->
+            <section class="message-area">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+                    
+                    <!-- Input Button -->
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+          </div>
+      </div>
+      </main>
+      <script src="form.js"></script>
+    </body>
+
+</html>
